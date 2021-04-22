@@ -9,4 +9,11 @@ class Admin extends CI_Controller
         $data['page'] = 'admin/index';
         $this->load->view('backend/layout/app', $data);
     }
+
+    public function baner()
+    {
+        $data['title'] = 'Admin | Baner';
+        $data['page'] = 'admin/baner';
+        $this->load->view('backend/layout/app', $data);
+    }
 }
