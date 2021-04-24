@@ -12,4 +12,9 @@ class Auth extends CI_Controller
     {
         $this->load->view('auth/page/register');
     }
+
+    public function forgot()
+    {
+        $this->load->view('auth/page/forgot');
+    }
 }
