@@ -48,7 +48,9 @@
                                     </div>
                                 </div>
                                 <div class="clearfix">
-                                    <button class="btn btn-primary float-end">Submit</button>
+                                    <!-- button -->
+                                    <a href="<?= base_url('admin'); ?>" class="btn btn-primary float-end">Submit</a>
+                                    <!-- end button -->
                                 </div>
                             </form>
                             <div class="divider">
